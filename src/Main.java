@@ -13,7 +13,7 @@ public class Main {
         Locale brazil = new Locale("pt", "BR");
         Currency currency = Currency.getInstance(brazil);
 
-        System.out.println("Welcome to BankIt" + "\n" + "Client: " + nameClient + "\n" + "Account number: " + accountNumber + "\n" + "Currency: " + currency.getSymbol() + "\n" + "Balance: " + currency.getSymbol() + balance + "\n");
+        System.out.println("Welcome to BankIt" + "\n" + "Client: " + nameClient + "\n" + "Account Number: " + accountNumber + "\n" + "Balance: " + currency.getSymbol() + balance + "\n");
 
         System.out.println("Enter the desired option ");
         String menuOptions = """
